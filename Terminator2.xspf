@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>https://archive.org/details/terminator-2-judgment-day-1991_202202</location>
+			<title>terminator-2-judgment-day-1991_202202</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://archive.org/download/terminator-2-judgment-day-1991_202202/Terminator.2.Judgment.Day.1991.DC.1080p.BRrip.x264.GAZ.YIFY.mp4</location>
+			<title>Terminator.2.Judgment.Day.1991.DC.1080p.BRrip.x264.GAZ.YIFY.mp4</title>
+			<duration>9205000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+	</extension>
+</playlist>
